@@ -1,0 +1,31 @@
+.my-class {
+  margin: 12px;
+  border: 2px solid green;
+  padding: 4px;
+  background-color: orange;
+  width: 60%;
+  float: right;
+}
+
+.sidebar {
+  float: left;
+  margin: 12px;
+  border: 2px solid green;
+  padding: 4px;
+  background-color: red;
+  width: 30%;
+}
+
+.column {
+  margin: 12px;
+  border: 2px solid green;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  width: 30%;
+  float: right;
+}
+
+.resize {
+  width: 28%;
+}
