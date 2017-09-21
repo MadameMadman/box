@@ -1,31 +1,73 @@
-.my-class {
-  margin: 12px;
-  border: 2px solid green;
-  padding: 4px;
-  background-color: orange;
-  width: 60%;
-  float: right;
+body {
+  font-family: 'Varela Round', sans-serif;
 }
 
-.sidebar {
-  float: left;
-  margin: 12px;
-  border: 2px solid green;
-  padding: 4px;
-  background-color: red;
-  width: 30%;
+#page-wrap {
+     width: 800px;
+     margin: 0 auto;
 }
 
-.column {
-  margin: 12px;
-  border: 2px solid green;
+.profile {
+  background-color: #b0fd66;
+  border: 2px solid black;
   padding: 20px;
-  background-color: blue;
-  color: white;
-  width: 30%;
-  float: right;
+  margin: 20px 10px 10px 20px;
+  border-radius: 25px;
+  text-align: center;
 }
 
-.resize {
-  width: 28%;
+.profile img{
+
+    border: 20px solid #d7feb2;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+.profile ul{
+  text-align: left;
+}
+.profile h2 {
+  font-style: italic;
+}
+
+
+.about {
+  background-color: #d7feb2;
+  border: 2px solid #bdfd7f;
+  margin: 20px 10px 10px 20px;
+  border: 2px solid black;
+}
+
+.dog {
+  float:left;
+  width: 33%;
+}
+
+.turtle {
+  float:right;
+  width: 33%;
+}
+
+.cat {
+  float: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  body {
+       width: 400px;
+   }
+
+   .turtle {
+     float: none;
+   }
+
+   .profile img{
+       height: auto;
+       width: auto;
+       max-width: 200px;
+       max-height: 200px;
+   }
 }
